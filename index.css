@@ -1,0 +1,36 @@
+.container  {
+  position: relative;
+  height: 100%;
+  width: 80%;
+  margin-top: 15%;
+  /*background-color: #48D1CC;*/
+  border-radius: 15px;
+
+}
+
+.container.generator {
+  margin-top: 5px;
+  border: 1px solid #48D1CC;
+}
+
+.select-style {
+    border: 1px solid #ccc;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa url("img/icon-select.png") no-repeat 90% 50%;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
